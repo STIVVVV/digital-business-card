@@ -10,8 +10,8 @@ export default function Introduction()
         <div>
                 {/*change image*/}
                 <img src={logo} className="logo" alt="react logo"/>
-                <h1>name</h1>
-                <h2>Profession</h2>
+                <h1>STIVVVV</h1>
+                <h2>Front end and unity developer</h2>
 
                 <a href="https://github.com/STIVVVV">
                     <img className="image" src={gitLogo}  alt="github logo"/>  
