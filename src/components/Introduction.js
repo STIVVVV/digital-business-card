@@ -1,15 +1,22 @@
 import React from "react";
 import "../index.css"
-import logo from "../images/logo192.png";
 import gitLogo from "../images/GitHub Icon.png";
 import itchLogo from "../images/itch.io.png";
+import videoMp4 from "../images/video.mp4"
+import videoWebm from "../images/video.webm"
 
 export default function Introduction()
 {
     return (
         <div>
-                {/*change image*/}
-                <img src={logo} className="logo" alt="react logo"/>
+                <video  muted loop controls className="video">
+                    <source src={videoMp4} type="video/mp4"/>
+                    <source src={videoWebm} type="video/webm"/>
+                    Your browser does the video.
+                </video>
+
+                {/* <img src={logo} className="logo" alt="react logo"/> */}
+
                 <h1>STIVVVV</h1>
                 <h2>Front end and unity developer</h2>
 
