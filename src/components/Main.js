@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Main()
 {
-    {/* about and skills */}
+    /* about and skills */
     return (
         <div>
             <h3>About</h3>
