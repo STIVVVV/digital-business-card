@@ -7,21 +7,21 @@
 
 .Box
 {
-    width: 550px;
-    height: 868px;
-    padding: 100px;
-    margin: 20px;
-    align-content: center;
-    background-color: #23252C;
-    border: 15px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
 }
 
 .logo
 {
-    /* position: absolute; */
     width: 200px;
     top: 50px;
-    padding: 20px;
-    margin: 20px;
-    /* border-radius: 50% 50% 50% 50%; */
+}
+
+.image
+{
+    width: 25px;
+    padding: 10px;
 }
