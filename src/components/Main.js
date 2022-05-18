@@ -5,14 +5,14 @@ export default function Main()
     /* about and skills */
     return (
         <div>
-            <h3>About</h3>
-            <p>
+            <h3 className="headers">About</h3>
+            <p className="about--text">
                 I am a front-end software developer with a large degree of experiance with making games in particular.
                 I really enjoy learning and building things if you got problems I have solutions.
             </p>
 
-            <h3>Skills</h3>
-            <ul>
+            <h3 className="headers">Skills</h3>
+            <ul className="skills--text">
                 <li>Four years of experiance developing games with unity from 2d to VR applications</li>
                 <li>
                     In depth understanding of SOLID principles, dry and wet code,

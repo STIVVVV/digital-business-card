@@ -8,24 +8,22 @@ import videoWebm from "../images/video.webm"
 export default function Introduction()
 {
     return (
-        <div>
-                <video  muted loop controls className="video">
+        <div >
+                <video muted loop controls className="video">
                     <source src={videoMp4} type="video/mp4"/>
                     <source src={videoWebm} type="video/webm"/>
-                    Your browser does the video.
+                    Your browser is not compatible with the video format.
                 </video>
 
-                {/* <img src={logo} className="logo" alt="react logo"/> */}
-
-                <h1>STIVVVV</h1>
-                <h2>Front end and unity developer</h2>
+                <h1 className="introHeader">STIVVVV</h1>
+                <h2 className="introHeader">Front end and unity developer</h2>
 
                 <a href="https://github.com/STIVVVV">
-                    <img className="image" src={gitLogo}  alt="github logo"/>  
+                    <img className="image" src={gitLogo}  alt="github page"/>  
                 </a> 
 
                 <a href="https://stivvvv.itch.io/">
-                    <img className="image" src={itchLogo}  alt="itch.io logo"/> 
+                    <img className="image" src={itchLogo}  alt="itch.io portfolio"/> 
                 </a> 
         </div>
     )
